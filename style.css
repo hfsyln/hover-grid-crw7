@@ -5,6 +5,38 @@
 }
 
 .anadiv {
+    margin-top: 20px;
     display: flex;
-    border: ;
+    justify-content: space-between;
+    align-items: center ;
+    height: 3rem;
+    padding: 10px 10px;
+    background: linear-gradient(
+        to right,
+        rgb(99, 112, 119),
+        rgba(38, 192, 216, 0.805));
+}
+
+a {
+    text-decoration: none;
+}
+i {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid red;
+}
+.menü {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    transition: 2s;
+    border-radius: 15px;
+
+}
+.menü:hover {
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(152, 149, 149);
+}
 }
