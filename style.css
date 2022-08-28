@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center ;
     height: 3rem;
+    
     padding: 10px 10px;
     background: linear-gradient(
         to right,
@@ -59,3 +60,5 @@ i {
 i:hover {     
     transform:scale(1.2);
 }
+
+
