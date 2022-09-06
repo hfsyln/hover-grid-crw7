@@ -1,7 +1,10 @@
+@import "colorthema.css";
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--ff-dyna);
 }
 
 .anadiv {
@@ -11,7 +14,7 @@
     align-items: center ;
     height: 3rem;
     
-    padding: 10px 10px;
+    padding: 10px 5px;
     background: linear-gradient(
         to right,
         rgb(99, 112, 119),
@@ -20,7 +23,7 @@
 
 a {
     text-decoration: none;
-    color: brown;
+    color: var(--koyu-kirmizi);
     font-weight:800;
     margin: 0.5rem;    
 }
@@ -48,7 +51,7 @@ i {
 
 .menü:hover {
     background-color: cadetblue;
-    box-shadow: 0px 0px 10px gainsboro;
+    box-shadow:var(--koyu-golge);
     color: burlywood;
 }
 
